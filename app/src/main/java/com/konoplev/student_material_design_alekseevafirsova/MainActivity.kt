@@ -135,5 +135,12 @@ fun StudentApp() {
             StudentApp()
         }
     }
+@Preview
+@Composable
+fun StudentDarkThemePreview() {
+    Student_Material_Design_AlekseevaFirsovaTheme (darkTheme = true) {
+        StudentApp()
+    }
+}
 
 
